@@ -1,3 +1,9 @@
+# NB
+A fork of `clj-ssh` which uses mwiede's [fork](https://github.com/mwiede/jsch) of `jsch`.
+Also, uses `deps.edn` instead of `project.clj`. I was able to use the newer private keys
+and do an `ls` on the remote sftp server. Otherwise not well tested.
+
+
 
 [![Clojars Project](https://img.shields.io/clojars/v/clj-commons/clj-ssh.svg)](https://clojars.org/clj-commons/clj-ssh)
 [![cljdoc badge](https://cljdoc.org/badge/clj-commons/clj-ssh)](https://cljdoc.org/d/clj-commons/clj-ssh/CURRENT)
